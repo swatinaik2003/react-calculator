@@ -1,0 +1,53 @@
+/* App.css */
+
+.App {
+  text-align: center;
+  margin-top: 200px;
+}
+
+.calculator {
+  width: 500px;
+  margin: 0 auto;
+  padding: 50px;
+  border: 2px solid hsla(24, 90%, 31%, 0);
+  border-radius: 8px;
+  background-color: hsla(217, 47%, 33%, 0.412);
+}
+
+.display {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+
+.input {
+  font-size: 54px;
+  min-height: 40px;
+}
+
+.result {
+  font-size: 92px;
+  font-weight: bold;
+  color: hwb(53 21% 31%);
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+.button {
+  padding: 20px;
+  font-size: 38px;
+  background-color: #dd7b2566;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.button:hover {
+  background-color: #49d470;
+}
